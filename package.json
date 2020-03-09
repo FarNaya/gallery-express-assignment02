@@ -1,0 +1,29 @@
+{
+  "name": "assignment2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "FN",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "node-gallery": "^1.1.0",
+    "react": "^16.13.0",
+    "react-image-gallery": "^1.0.6"
+  },
+  "devDependencies": {},
+  "description": "module gallery",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FarNaya/assignment01.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FarNaya/assignment01/issues"
+  },
+  "homepage": "https://github.com/FarNaya/assignment01#readme"
+}

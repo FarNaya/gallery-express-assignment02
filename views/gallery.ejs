@@ -1,0 +1,28 @@
+<%- include('partials/header') %>
+<%- include('partials/galleryhead') %>
+<%- include('partials/nav') %>
+<header><h1><%= title %></h1></header>
+<p>This are not LotR images :(</p>
+<main>
+    <section id="gallery-card">
+        <% for (pictures of gallery) { <!-- loop -->
+      %>
+        <div class="card">
+            <a href="../images/lrg/<%= pictures.fileName %>">
+                <!-- I could't get the info in individual images. I'm not pretty sure if two different ejs for each gallery was needed-->
+
+                
+                <figure>
+                    <img src="images/sm/<%= pictures.fileName %>" alt="<%= pictures.title %>" id="<%= pictures.id %>">
+                    <figcaption><%= pictures.title %>, by: <em><%= pictures.attribution.credit %></em></figcaption>
+                </figure>
+           
+        </div>
+        <%
+    } %>
+        <!--closure -->
+    </section>
+</main>
+
+
+<%- include('partials/footer') %>
